@@ -1,6 +1,7 @@
 # datadog-proxy
 
-Builds a container to function as a web proxy for use with DataDog.
+Builds a container to function as a web proxy for use with DataDog,
+deployed at: https://datadog-proxy.opensafely.org
 
 See: https://docs.datadoghq.com/agent/proxy/
 
