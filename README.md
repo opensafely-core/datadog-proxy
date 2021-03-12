@@ -32,3 +32,13 @@ docker pull gcr.io/datadoghq/agent
 docker tag gcr.io/datadoghq/agent ghcr.io/opensafely-core/datadog-agent
 docker push ghcr.io/opensafely-core/datadog-agent
 ```
+
+## Starting the agent
+
+The agent can be started using the supplied [start-agent.sh](./start-agent.sh) script.
+
+This requires the following environment variables:
+
+ * `DATADOG_API_KEY`
+ * `DATADOG_PROXY_AUTH`: A `username:password` string for datadog-proxy.opensafely.org
+ * `BACKEND` (`tpp` or `emis`)
