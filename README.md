@@ -1,5 +1,11 @@
 # datadog-proxy
 
+----------------
+
+**This is an abandonded experiment: the dokku app and Cloudflare DNS entry have been removed**
+
+----------------
+
 Builds a container to function as a web proxy for use with DataDog,
 deployed at: https://datadog-proxy.opensafely.org
 
